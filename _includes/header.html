@@ -1,0 +1,20 @@
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+                 {% for us in site.us %}
+            <div class="col-lg-6">
+                <a class="link" href="{{ us.link }}">
+                <img class="img-responsive" src="{{ us.image }}" alt="">
+                </a>
+                <div class="intro-text">
+                    <span class="name"><a class="link" href="{{ us.link }}">{{ us.name }}</a></span>
+                    <hr class="star-light">
+                    <span class="skills"><a class="link" href="{{ us.link }}">{{ us.description }}</a></span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</header>

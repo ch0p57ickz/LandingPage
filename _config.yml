@@ -1,0 +1,39 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: The Prompanya Family
+email: us@prompanya.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.prompanya.com" # the base hostname & protocol for your site
+
+# Social media profiles - feel free to add more here
+twitter_username: SBootstrap
+github_username:  BlackrockDigital
+facebook_username: StartBootstrap
+#instagram_username: beyonce
+#stackoverflow_url: https://
+#googleplus_username: BobMarley
+#skype_username: echo123
+#linkedin_url: https://
+
+us:
+- name: James
+  description: Senior Software Developer - Server Infrastructure - Game Development 
+  link: http://jamesprompanya.com
+  image: http://res.cloudinary.com/ch0p57ickz/image/upload/c_fill,g_face,h_256,r_max,w_256/v1510646293/DSC_1591.NEF_rgiqb7.png 
+- name: Jennifer
+  description: Marketing Automation - Event Planning - Web Design
+  link: http://jenprompanya.com
+  image: http://res.cloudinary.com/ch0p57ickz/image/upload/c_fill,g_face,h_256,r_max,w_256/v1510645733/DSC_9747_jpost5.png
+
+# Address information
+address_city: San Jose
+address_state: CA
+
+# Build settings
+markdown: kramdown
